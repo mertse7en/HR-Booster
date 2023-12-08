@@ -3,15 +3,25 @@
 
 Job Boosty is a comprehensive tool designed to streamline the job search process for both Human Resources professionals and job seekers. It offers two main functionalities: HR Booster and Job Finder Booster.
 
-## 1- HR Booster
+### 1.HR Booster
+
+* **Automated Job Description Analysis:** Job Boosty's HR Booster identifies and analyzes job descriptions from a vast pool of opportunities.
+* **Similarity Score Generation:** It generates similarity scores among many candidates based on job descriptions, simplifying the candidate selection process.
+
+### 2.Job Finder Booster
+
+* **Country-Specific Job Summaries:** The Job Finder Booster presents a concise overview of available job openings within a chosen country.
+* **Aiding Job Seekers:** This feature helps job seekers by offering clear and concise information about the opportunities available in that region.
+
+
+## HR Booster
 
 The HR Booster component of Job Boosty is tailored for Human Resources professionals. This feature automates the process of analyzing job descriptions and candidates, providing an efficient solution for candidate selection. 
 
-HR Booster is a tool designed to facilitate HR professionals in matching job descriptions with potential candidates available on LinkedIn. It takes inputs in a specific format for job descriptions and a list of LinkedIn profiles, and generates an output table displaying the similarity scores between the job description and the LinkedIn profiles.
-
 ### Example
 
-### HR - Input1: Job Description
+
+Input1: Job Description
 ---
 
 To use the tool, input the job description following a specific format:
@@ -21,12 +31,10 @@ To use the tool, input the job description following a specific format:
 Responsibilities:
 
 Software Development, Participating in scrum events, Product Demonstration to the customers.
-Development and operation of the framework for generating reference data for labelling algorithms in the form of KPIs (lane markings, obstacles, the lane area travelled over and the trajectory travelled). These must be adapted to both to local and the cloud infrastructure. The goal is to increase the accuracy in order to minimize the effort for manual corrections.
 
 Mandatory Skills Description:
 Python (including interaction with cloud, networking, authentication management)
 Strong AWS experience: migration of apps to AWS platform (lambdas, VPC, jumphosts, IAM roles, EMR)
-Container services (Docker, AWS EKS, Kubernetes/OpenShift)
 Data Processing: Apache Spark, Pandas
 CI/CD, git
 
@@ -35,15 +43,12 @@ Working experience in a big company for the last 2 years (no freelance or freela
 Nice-to-Have Skills:
 Orchestration (Apache Airflow / Step function)
 Infrastructure as Code (Terraform / AWS CloudFormation)
-Databases (SQL / NoSQL - DynamoDB / Redshift / RDS ...)
-Automotive data formats (SOME/IP, non-verbose DLTs, FIBEX, etc.)
-Dashboard systems (Kibana, Grafana, ...)
 Scala
 ```
 
 
 
-### HR - Input2: LinkedIn Profiles
+Input2: LinkedIn Profiles
 ---
 
 
@@ -75,24 +80,38 @@ Based on the similarity scores, Jane and Sarah could be suitable candidates for 
 
 
 
-## 2-Job Finder Booster
+## Job Finder Booster
 
-## Description
 
-Job Finder Booster is a tool designed to assist job seekers in finding suitable job descriptions based on their resumes. It takes inputs such as the job seeker's resume details including skills and experience, specified role names, country preferences, working type, and relocation preferences to provide a list of potential job descriptions that match the criteria.
+### Example
 
-## Inputs
-
-### Resume Example
 
 The job finder will input their resume details in the specific format!
 
 Dummy format:
 
+```
 
-Experience: 3 years
-Python, AWS, Airflow, Docker, K8s etc.
+Certainly! Here's a formatted summary of Mert Seven's profile for a README file:
 
+### Summary
+Mert Seven is a proactive and skilled Data Engineer with a Bachelor's degree in Computer Science. His expertise lies in designing, maintaining, and optimizing Central Data Orchestration systems utilizing various tools such as Airflow, Spark (PySpark), AWS Glue, and Databricks.
+
+# Skills and Expertise
+Mert demonstrates proficiency in the following tools and technologies:
+
+Airflow
+PySpark
+AWS Glue
+Databricks
+FastAPI
+Docker
+Various programming languages
+AWS and GCP services
+
+### Experience
+Mert Seven has accumulated approximately 3 years of experience in the field of Data Engineering. His experience spans from at least December 2020 to the current date (December 2023).
+```
 
 
 
