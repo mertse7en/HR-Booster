@@ -52,7 +52,7 @@ Input2: LinkedIn Profiles
 ---
 
 
-Provide the LinkedIn profile URLs in a list format:
+Provide the LinkedIn profile URLs in a list format or excel, csv ...
 
 1. (https://www.linkedin.com/in/mert-seven-439935149/)
 2. (https://www.linkedin.com/in/jane-doe-123456789/)
